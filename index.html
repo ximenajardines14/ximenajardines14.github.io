@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Jane Doe">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Jane Doe | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Pasatiempos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="https://scontent.fmex36-1.fna.fbcdn.net/v/t39.30808-6/377552635_3615892885313004_4561940391670049706_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=zNhhtKhE8fEAX_vfi_t&_nc_ht=scontent.fmex36-1.fna&oh=00_AfAXY4f00ysHeq1WZORJtXYgJInjZtxhxFeLNz94D8LZGA&oe=655461C3" alt="Foto de Jane Doe">
+        <h1>Hola, soy Kcaren Jardines</h1>
+
+
+
+        <!--<h2>Soy estudiante de ingenieria industrial, actualmente curso el tercer semestre en la Facultad de Ing</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="https://www.ingenieria.unam.mx/nuestra_facultad/images/institucionales/escudo_fi_color.png" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Kcaren Ximena Jardines Bobadilla</h2>
+        <p class="seccion-texto">Soy Kcaren Ximena Jardines Bobadilla, estudiante de Ingenieria Industrial, actualmente curso el tercer semestre en la Facultad de Ingeneria, pertenecinte a la UNAM.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Datos personales</p>
+            <p>Nombre: Jardines Bobadilla Kcaren Ximena
+              Direccion:Las Garzas #3 Colonia San Isidro 
+              Numero de telefono:5562871301        
+              Correo electronico: ximenejardines17@gmail.com
+             </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Perfil</p>
+            <p>Soy una persona dedicada y comprometida, me gusta trabajar en equipo, ya que me permite aprovechar las habilidades, conocimientos y perspectivas únicas de cada miembro para lograr objetivos comunes. La colaboración puede conducir a soluciones más creativas y efectivas.  </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Comprometida</span>
+              <span class="badge text-bg-primary">Disiplinada </span>
+              <span class="badge text-bg-primary">Responsable </span>
+            </div>
+          </div>
+          <!-- Experiencia -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Experiencia </p>
+            <p>Desarrollé habilidades de servicio al cliente y ventas en un entorno minorista. Desarrollé habilidades de servicio al cliente y ventas en un entorno minorista. </p>
+            <div class="badges-contenedor">
+            
+            </div>
+          </div>
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Formación </p>
+            <p>Escuela Nacional Preparatoria No. 5 "José Vasconcelos" 2019-2022. Ingenieria Industrial en Facultad de Ingenieria 2023-actialidad
+             </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+            </div>
+          </div>
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Habilidades</p>
+            <p>☐Carrera tecnica de Enseñanza de ingles 2021-2022
+              ☐Curso en línea "Metodología para la resolución de problemas computables. “Escuela Nacional Preparatoria (UNAM). Plantel No.5. Ciudad de México.    	          	        		      2020.
+☐Curso en línea "Aprender", COURSERA por la Universidad Nacional Autónoma (UNAM). Ciudad de México.      						                 	       2020
+☐Curso en línea de Álgebra Básica, COURSERA por la Universidad Nacional Autónoma (UNAM). Ciudad de México.                                                               	                               2020.
+☐Curso en línea de Geometría Analítica, MATEFACILES. Ciudad de México.          2019-2021
+             </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+            </div>
+          </div>
+
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Idiomas</p>
+            <p>☐2020. Prueba de inglés como lengua extranjera (TOEFL ITP). Universidad de Cambridge.
+              ☐2020 .Curso de preparación para el examen TOEFL, Encenter Xochimilco. Ciudad de México.
+              ☐2020. Curso online de Aprendizaje, “How to learn”, COURSERA por la Universidad Nacional Autónoma (UNAM). Ciudad de México.
+              ☐2020. Curso online de Inglés empresarial, COURSERA por la Universidad Nacional Autónoma (UNAM). Ciudad de México 
+              ☐2019. Certificado en inglés. Nivel intermedio (B2) Encenter Xochimilco.
+              ☐2017-2020. Curso de inglés, Encenter Xochimilco. Ciudad de México.
+              ☐2016-2017. Curso de inglés, “English Academy”. Ciudad de México.
+              ☐2015. Curso de inglés, programa Niño talento DIF. Ciudad de México. 
+              
+             </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+            </div>
+          </div>
+          
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Intereses</p>
+            <p>☐2021. Maestra Invitada en la Escuela Nacional Preparatoria (UNAM). Plantel No.5, cuarto año de preparatoria. Nivel Básico (A2)
+              ☐  2020. Impartición de curso de inglés a  niños de 10 y 11 años.
+             </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+            </div>
+          </div>
+
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Actividades extracurriculares</p>
+            <p>☐Club de gimnasia artística de la delegación Tláhuac. Ciudad de México. ☐ Coro de la Facultad de Ingenieria y Orquesta Sinfónica de Minería.
+             </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+            </div>
+          </div>
+
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Curso/Talleres</p>
+            <p>☐ Curso de alemán. “Deutschkurs A1” Ciudad de México.                       	  2021.
+              ☐Curso de coro. Ciudad de México.                                                            	  2018-2019
+              ☐Taekwondo Federación KYEONGJU.  Ciudad de México.                    	              2016-2019.
+              ☐Curso de natación, Los delfines, Ciudad de México.  				  2017-2018.
+              ☐Curso de cartonería, Casa de la Cultura, Ciudad México.                            	  2017-2018.   
+             </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!--Clon -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto1.png" alt="Clonación de Google">
+              <div class="overlay">
+                <p>Clonacion de Google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://clonedegooglekcarenjardines.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto2.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Pagina Web</p>
+                <div class="iconos-contenedor">
+                  <a href="https://paginawebkcarenjardines.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto3.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto de Investigación en Inglés</p>
+                <div class="iconos-contenedor">
+                  <a href="https://drive.google.com/file/d/1Z-nx6DtbyDgzYARKz7gNCVx9ZFWV4DQg/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Pasatiempos</h2>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://fnsi.com.mx/wp-content/uploads/2020/06/GYM-17-1024x731.jpg" alt="Foto de Gino">
+              <p class="testimonio-texto">Me gusta hacer ejercicio. </p>
+              <div class="testimonio-info">
+               
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://lauraemprende.com/wp-content/uploads/2020/01/joel-muniz-XqXJJhK-c08-unsplash-980x653.jpg" alt="Foto de Nora">
+              <p class="testimonio-texto">Suelo leer por las tardes .</p>
+              <div class="testimonio-info">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://diariosanrafael.com.ar/wp-content/uploads/2022/01/Un-estudio-a-nivel-nacional-arrojo-que-Argentina-es-el-pais-con-mayor-penetracion-de-internet-en-la-region.jpg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Tengo gusto por la investigacion</p>
+              <div class="testimonio-info">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+   
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+     
+      <p class="footer-texto text-center">Contactame en:</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://github.com/ximenajardines14" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ximena-jardines-6239a1265/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/kc_xim/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Kcaren Jardines  (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
